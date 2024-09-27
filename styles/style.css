@@ -125,18 +125,12 @@ text-decoration-line: underline;
     border-radius: 8px;
     height: 200px;
  }
- .child .child-img img {
-    height: 88px;
- }
  .child {
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
     padding: 100px; /* Adds padding inside each child */
     text-align: center;
 }
 .child-img img {
     max-width: 100%;
-    height: auto;
+    height: 88px;
 }
  
