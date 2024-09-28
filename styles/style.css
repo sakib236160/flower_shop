@@ -213,6 +213,34 @@ text-decoration-line: underline;
     font-size: 20px;
     outline: none;
 }
+/* ----------footer section ------------ */
+/* #footer-section{
+    background: #111010;
+} */
+#footer-section {
+    background-color: #272727;  
+    color: white;               
+    text-align: center;        
+    padding: 50px 0;           
+    width: 100%;      
+}
+
+#footer-section .section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    
+}
+
+#footer-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;           
+    margin: 0 auto;  
+    color: white;           
+}
+.footer-span{
+    color: #E55473;
+}
 
 
  
