@@ -118,7 +118,7 @@ text-decoration-line: underline;
 #delivary{
     padding: 100px 0;
 }
- .dv{
+.dv{
     display: flex;
     align-items: center;
     background: rgba(39, 39, 39, 0.05);
@@ -133,4 +133,86 @@ text-decoration-line: underline;
     max-width: 100%;
     height: 88px;
 }
+/*------------------------ hot-deal section ----------------------- */
+#hot-deal {
+    background: rgba(241, 3, 55, 0.1); 
+    border-radius: 8px;
+    padding: 100px 0;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+}
+
+.hot-deal-text * {
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#hot-deal .hot-deal-img {
+    max-width: 318px;
+}
+
+.importien {
+    color: #E55473;
+}
+/*--------------- section-heading Start ------------------*/
+.section-heading{
+    padding: 50px 0;
+}
+.section-heading-img {
+    display: flex;           
+    justify-content: space-between;
+    gap: 24px;               
+}
+.section-heading-img .img img {
+    width: 100%; 
+    padding: auto;
+    border-radius: 20px;
+}
+/* --------------------- newsletter section start ---------------*/
+#newsletter{
+    margin: 128px 0;
+}
+.newsletter-main{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 122px 0;
+    width: 100%;  
+    color: white;   
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+}
+
+
  
